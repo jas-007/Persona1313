@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!--  This site was created in Webflow. http://www.webflow.com  -->
+<!--  Last Published: Thu Dec 05 2019 22:51:00 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="5dd9eaa6cd7d37b89a1d104b" data-wf-site="5dd9d503cd7d371d021cb9c1">
+<head>
+  <meta charset="utf-8">
+  <title>login</title>
+  <meta content="login" property="og:title">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta content="Webflow" name="generator">
+  <link href="css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="css/webflow.css" rel="stylesheet" type="text/css">
+  <link href="css/food-delivery-7ad16c.webflow.css" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+  <script type="text/javascript">WebFont.load({  google: {    families: ["Great Vibes:400"]  }});</script>
+  <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
+  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+  <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+  <link href="images/webclip.png" rel="apple-touch-icon">
+</head>
+<body>
+  <div data-collapse="medium" data-animation="default" data-duration="400" class="navbar-2 w-nav">
+    <div class="nav-contents">
+      <div id="nav-logo" class="nav-logo">
+        <div class="logo"></div>
+        <h1 class="heading-3">Restaurant</h1>
+      </div>
+      <div class="nav-links">
+        <a href="index.html" class="nav-link w-inline-block">
+          <h4 class="heading-4">Home</h4>
+        </a>
+        <a href="#" class="nav-link w-inline-block">
+          <h4 class="heading-5">Contact</h4>
+        </a>
+      </div>
+      <div class="nav-rest"><img src="images/cart.svg" width="40" height="40" data-w-id="770a7a9f-b340-c5ee-715c-21c650fd50df" alt="" class="image-3">
+        <div class="text-block-6"><strong id="nav-total-show" class="bold-text">$28.00</strong></div><a href="login.html" class="link-4 w--current"><strong class="bold-text-2">Login</strong></a></div>
+    </div>
+    <div class="cart">
+      <div class="text-block-9"><strong>Your cart</strong></div>
+      <div class="cart-items">
+        <div class="cart-item">
+          <div class="text-block-8">Fish &amp; Chips</div>
+          <div class="w-form">
+            <form id="email-form-2" name="email-form-2" data-name="Email Form 2" class="form-quantity-cart"><a href="#" class="item-quantity-btn cart-quantity w-button">+</a><input type="text" class="input-add-to-the-cart cart-input w-input" maxlength="256" name="field-6" data-name="Field 6" placeholder="0" id="field-6" required=""><a href="#" class="item-quantity-btn cart-quantity w-button">-</a></form>
+            <div class="w-form-done">
+              <div>Thank you! Your submission has been received!</div>
+            </div>
+            <div class="w-form-fail">
+              <div>Oops! Something went wrong while submitting the form.</div>
+            </div>
+          </div>
+          <div>$ 20.00</div>
+        </div>
+      </div>
+      <div class="cart-total">
+        <div>Your total:</div>
+        <div id="cart-total">$ 80.00</div>
+      </div>
+      <div class="cart-checkout"><a href="#" class="button-2 w-button">CHECKOUT</a></div>
+    </div>
+    <div class="nav-error">
+      <h4 class="heading-17">Error: Your browser does not support Local Storage! Many of the functionality will not work on your browser.<br>Please, use a normal browser like Google Chrome.</h4>
+    </div>
+  </div>
+
+
+  <section id="login-section" class="login-section">
+    <div class="container-4 w-container">
+      <div class="form-block-3 w-form">
+        <form id="email-form" name="email-form" data-name="Email Form" class="form-register w-clearfix">
+          <div class="login-header">
+            <h3 class="login-hd">Login</h3>
+          </div>
+          <div class="login-body w-clearfix">
+            <p id="text-after-register" class="after-register-text">Your account has been successfully created. You can login now.</p>
+            <div class="div-login"><label for="username">Username</label><input type="text" class="w-input" maxlength="256" placeholder="username" id="username" required=""></div>
+            <div class="div-login"><label for="password">Password</label><input type="password" class="w-input" maxlength="256" placeholder="***" id="password" required=""></div><a href="#" onclick="showResetPassword()" class="link-2">Forgot password?</a></div><a href="#" onclick="login()" class="button w-button">Sign In</a>
+          <div id="register-link" class="div-signup-link">
+            <p class="paragraph-2">If you don&#x27;t have an account,</p><a href="register.html">Sign Up</a></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section id="reset-password-section" class="reset-password">
+    <div class="container-8 w-container">
+      <div class="form-block-3 w-form">
+        <form id="forgot-password" class="form-register w-clearfix">
+          <div class="login-header">
+            <h3 class="login-hd">Password reset</h3>
+          </div>
+          <div class="login-body">
+            <div class="div-login"><label for="username-reset">Username</label><input type="text" class="w-input" maxlength="256" placeholder="username" id="username-reset" required=""></div>
+            <div class="div-login"><label for="pwd-reset">Password</label><input type="password" class="w-input" maxlength="256" placeholder="***" id="password-reset" required=""></div>
+            <div class="div-login"><label for="password-3">Repeat Password</label><input type="password" class="w-input" maxlength="256" placeholder="***" id="password-2-reset" required=""></div>
+          </div><a href="#" onclick="resetPassword()" class="button w-button">Reset Password</a>
+          <div id="register-link" class="div-signup-link">
+            <p class="paragraph-2">If you don&#x27;t have an account,</p><a href="register.html">Sign Up</a></div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.4.1.min.220afd743d.js" type="text/javascript" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="js/webflow.js" type="text/javascript"></script>
+  <script src="js/login.js"></script>
+  <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+</body>
+</html>
